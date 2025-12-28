@@ -72,4 +72,6 @@ DIVIDE(SUM(sales[cancelled_orders]), [Total Orders])
 
 Lost Revenue = SUM(sales[lost_revenue])
 
+## Dashboard Image
+
 <img width="1919" height="987" alt="Capture" src="https://github.com/user-attachments/assets/5d1cccc3-5cea-4846-a7fe-aac750dc5fe3" />
