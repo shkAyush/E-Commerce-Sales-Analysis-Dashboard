@@ -1,11 +1,18 @@
 # 📊 E-Commerce Sales Analysis Dashboard (Power BI)
 
-![E-Commerce Dashboard](Capture.PNG)
+<!-- Dashboard Preview -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5d1cccc3-5cea-4846-a7fe-aac750dc5fe3" 
+       alt="E-Commerce Power BI Dashboard" 
+       width="100%" />
+</p>
+
+---
 
 ## 📌 Project Overview
 This project showcases an **interactive E-Commerce Sales Analysis Dashboard** developed using **Microsoft Power BI**.
-The dashboard provides actionable insights into revenue performance, customer behavior, product trends,
-and cancellations to support data-driven decision-making.
+The dashboard provides actionable insights into **revenue performance, customer behavior, product trends, and cancellations**
+to support data-driven business decision-making.
 
 ---
 
@@ -70,8 +77,5 @@ DIVIDE([Total Revenue], [Total Orders])
 Cancellation Rate =
 DIVIDE(SUM(sales[cancelled_orders]), [Total Orders])
 
-Lost Revenue = SUM(sales[lost_revenue])
-
-## Dashboard Image
-
-<img width="1919" height="987" alt="Capture" src="https://github.com/user-attachments/assets/5d1cccc3-5cea-4846-a7fe-aac750dc5fe3" />
+Lost Revenue =
+SUM(sales[lost_revenue])
